@@ -6,3 +6,23 @@
 /* #menu linklerinin padding değeri: 20px */
 
 /* #footer butonu metni 'Başa dön' olmalı */
+
+body{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#header, #hero, #gallery, #footer{
+    width: 750px;
+}
+
+#menu{
+    background-color:#777;
+    padding:20px;
+}
+
+#menu:hover{
+    background-color:#000;
+}
+
+
