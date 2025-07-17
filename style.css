@@ -1,15 +1,9 @@
-/* #header, #hero, #gallery, #footer genişlikleri 750px olmalı */
 
-/* #menu bir <nav> olmalı */
-/* #menu içindeki linklerin arka plan rengi: #777 */
-/* #menu linklerine hover yapıldığında arka plan rengi: #000 */
-/* #menu linklerinin padding değeri: 20px */
-
-/* #footer butonu metni 'Başa dön' olmalı */
 *{
     margin:0px;
     padding:0px;
 }
+
 body{
     width:750px;
     margin-left:auto;
@@ -34,8 +28,9 @@ body{
 #menu{
     background-color:#777;
     display:flex;
-    
+    color:white;
 }
+
 #menu a{
     padding:20px;
     background-color: #777;
@@ -54,25 +49,42 @@ body{
     align-items: center;
     color:white;
     margin: 10px 0px 40px 0px;
-    
 }
 
 #gallery{
     display:flex;
     justify-content: space-between;
 }
+
+#gallery h2{
+    text-align: center;
+    font-size:larger;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
 .photo{
-    width:240;
-    height: 180;
+    width:240px;
+    height: 180px;
     background-color: #777;
-    
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer{
     height:80px;
     background-color: #777;
     display:flex;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer button{
+    width:100px;
+    height: 35px;
+    font-weight: 600;
 }
 
 
